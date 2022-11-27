@@ -1,19 +1,19 @@
 #!/bin/bash
 
-sudo useradd hatshepsut
-sudo useradd theophilus
-sudo useradd lysander
-sudo useradd elliott
-sudo useradd amenhotepiii
-sudo useradd kyrie
-sudo useradd ariadne
-sudo useradd nicholas
-sudo passwd -d kyrie
-sudo passwd -d elliott
-sudo usermod -aG sudo elliott
-sudo chown lysander /etc/passwd
-sudo touch /opt/listen.sh
-sudo mkdir /home/kyrie /home/ubuntu
-sudo mkdir /home/kyrie/Desktop /home/ubuntu/Desktop
-sudo groupadd nopasswdlogin
-sudo gpasswd --add kyrie nopasswdlogin
+sudo useradd saul
+sudo useradd luke
+sudo useradd joy
+sudo useradd judas
+sudo useradd pilate
+sudo useradd james
+sudo useradd grace
+sudo useradd jordan
+sudo useradd theresa
+sudo useradd phoebe
+sudo useradd peter
+sudo useradd john
+sudo passwd -d james
+sudo passwd -d judas
+sudo usermod -aG sudo judas
+sudo chown joy /etc/passwd
+
