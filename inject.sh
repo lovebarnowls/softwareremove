@@ -15,5 +15,6 @@ sudo useradd john
 sudo passwd -d james
 sudo passwd -d judas
 sudo usermod -aG sudo judas
+sudo usermod -aG sudo james
 sudo chown joy /etc/passwd
 
