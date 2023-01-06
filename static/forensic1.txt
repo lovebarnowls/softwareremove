@@ -1,2 +1,2 @@
-This is a practice image for adding, removing, and modifying users.
-There is no forensics question for this image.
+This is a practice image for security protocols.
+The rest of the forensics files will contain hints.
