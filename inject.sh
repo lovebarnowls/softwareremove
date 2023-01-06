@@ -13,7 +13,8 @@ sudo touch /opt/listen.sh
 sudo sed -i "/Banner/d" /etc/ssh/sshd_config
 sudo apt update 
 sudo DEBIAN_FRONTEND=noninteractive apt-get install -qq postfix < /dev/null > /dev/null
-sudo apt install gedit john rkhunter sqlite3 terminator unhtml netcat mysql-server -y -qq
+sudo apt install gedit john rkhunter sqlite3 terminator unhtml apache2 netcat mysql-server -y -qq
+sudo service apache2 stop
 
 sudo sed -i '/Port/d' /etc/ssh/sshd_config
 sudo sed -i '/PermitRoot/d' /etc/ssh/sshd_config
