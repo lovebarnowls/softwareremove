@@ -1,27 +1,14 @@
-You are the system administrator for the Names-with-Christian-Origins-League.  The previous administrator has been slacking off.
-
-You will need to add authorized users, authorized administrators, as well as remove unauthorized users.
+You are the system administrator for the retired defenders league.  The previous administrator has been working hard with userids, but has been slacking off defensive protocols.
 
 Authorized administrators:
 
 	ubuntu
-	luke
-	joy
-	grace
+	terry
 
 Authorized users:
 
-	jordan
-	marcus
-	timothy
-	angel
-	simon
-	judah
-	theresa
-	phoebe
-	peter
-	john
-	james
+	maldini
 
 
-There is no forensic question for this practice image. Happy adding/removing users.
+As the previous administrator has been slacking off security protocols, you might want to look into how to fortify your network systems.
+For hints, look into the forensics files.
