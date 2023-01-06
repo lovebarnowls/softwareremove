@@ -21,7 +21,7 @@ Due to organizational policies, maldini, who does not have a security clearence,
 sql must be removed for all users.
 
 Security patches for the operating system and all critical software should be kept up to date.
-Note: For this image, please DO NOT RUN sudo apt-get update && upgrade, as we have over 1GB of updates required, which will take a long time and server cost. You are free to do so for our final image.
+<B>Note: For this image, please DO NOT RUN sudo apt-get update && upgrade, as we have over 1GB of updates required, which will take a long time and server cost. You are free to do so for our final image.</B>
 
 Auditing should be enable to allow the security team to determine who tries to log into the system.
 
