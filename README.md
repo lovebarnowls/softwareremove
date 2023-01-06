@@ -1,5 +1,5 @@
 
-nanoadduser - 5 names
+softwareremove and workstation protection
 ```
 cd ~
 
@@ -7,11 +7,11 @@ if got clone doesn't work, require apt install.
 sudo -i
 apt-get update
 apt install git
-git clone https://github.com/lovebarnowls/nanoadduser.git
+git clone https://github.com/lovebarnowls/softwareremove.git
 continue with below instructions
 
 
-cd nanoadduser
+cd softwareremove
 
 sudo chmod a+x *.sh
 
