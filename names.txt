@@ -1,14 +1,16 @@
-Notes
-
-Fix these
-
-
-
-Free score
-
-user nicholas removed (actioned)
-mysql disabled (actioned)
-
-
-Bash script for useradd from text file
-for i in $(cat username.txt); do sudo useradd $i; echo "user $i added successfully!"; echo $i:$i"123" |chpasswd; echo "Password changed"; done
+anki
+antiword
+anydesk
+btscanner
+cloc
+dmitry
+downtimed
+fatsort
+fcrackzip
+httping
+inxi
+mtr-tiny
+psad
+sqlite3
+terminator
+unhtml
