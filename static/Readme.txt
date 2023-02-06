@@ -1,3 +1,8 @@
+Note: Users on AWS may need to run the following code if they don't have permissions to write files etc:
+sudo -i
+
+
+
 You are the system administrator for the retired defenders league.  The previous administrator has been working hard with userids, but has been slacking off defensive protocols.
 
 Authorized administrators:
