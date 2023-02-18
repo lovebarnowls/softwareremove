@@ -27,7 +27,7 @@ sudo sed -i '$ a Port 22' /etc/ssh/sshd_config
 sudo sed -i '$ a PermitRootLogin yes' /etc/ssh/sshd_config
 sudo sed -i '$ a PermitUserEnvironment no' /etc/ssh/sshd_config
 sudo sed -i '$ a PermitEmptyPasswords yes' /etc/ssh/sshd_config
-sudo sed -i '$ a Protocol 1,2' /etc/ssh/sshd_config
+sudo sed -i '$ a Protocol 1' /etc/ssh/sshd_config
 sudo sed -i '$ a UsePAM no' /etc/ssh/sshd_config
 
 sudo sed -i '/security/d' /etc/apt/sources.list
