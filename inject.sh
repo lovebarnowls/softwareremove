@@ -4,7 +4,7 @@ sudo useradd maldini
 sudo useradd terry
 sudo passwd -d terry
 sudo usermod -aG sudo terry
-sudo chown terry /etc/passwd
+sudo echo -e "ubuntu\nubuntu" | passwd ubuntu
 
 sudo echo 'auth sufficient pam_succeed_if.so user ingroup nopasswdlogin' > /etc/pam.d/gdm-password
 sudo groupadd nopasswdlogin
